@@ -1,0 +1,10 @@
+Day 8 
+1. Data - What is info and data? Types of Data (Structured, Semi-Structured, Un-structured)
+2. Database - Data Warehouse, Data marts
+3. E-R Diagram - How different tables are related to each other
+4. Normalization - NF1, 2, 3, 3.5, 4, 5
+5. Denormalization
+6. Case Study on E-R Diagram - Book, Customer, Author, Order, Publisher
+7. Case Study on Normalization - Order Table Normalization
+8. Dimention Modeling - Star and Snow Flake Schema
+9. Slowly Changing Dimention - SCD1, SCD2, SCD3
