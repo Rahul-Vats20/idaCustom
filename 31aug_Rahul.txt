@@ -1,0 +1,17 @@
+Creating Azure SQL:
+1. SQL Database				2. SQL Managed Instances		3. SQL virtual machine
+- Single Database (High Transactions)	Additional management service 		Used when we need SQL Databsae
+- Elastic Pool (Automatic Scaling)	and support from Azure cloud		inside a virtual machine
+- Database Server
+Configuring the Azure SQL DB
+
+Azure SQL Querries:
+DDL(Definition), DML(Manipulation), DCL(Control)
+Schema - Logical grouping of the Related Data. (default: DBO)
+Constraints are the special keys, ie, Primary, Foreign, etc.
+
+Drop Table -> Whole record and structure will be deleted.
+Truncate Table -> All the records will be deleted but the structure will remain.
+Delete Table -> Selected rows/records will be deleted.
+
+Creating and altering tables, inserting and updating values, granting and revoking access and group by example.
