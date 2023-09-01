@@ -1,0 +1,36 @@
+- Azure SQL Database: Elastic Pool - Creating databases in elastic pool resource
+- Creating Azure SQL Database: Single database with available sample databse (adventure works LT)
+- learning about JOINS: inner, left, right, self, outer, cross.
+- Stored procedures:
+- create procedure SP_name
+ ` SQl code `
+- views, functions
+- `select * into #tempTable from [database].[table]` : creates a temp table on the go.
+- Adding a '#' in front of table name makes it a temp table: it only remains for a particular session(run)
+- ##### Functions:
+- Two Types: scalar and table valued
+- Scalar: output as one record only, returns a single value each time it is invoked
+- Table valued: returns a table, thus it can be used as a table in a query.
+- Hands-On Case Study Assignment:
+- Joins
+- Views
+- Sub Queries
+- Stored Procedures
+- join three tables
+- get second maximum salary
+- Union (removes duplicates), Union ALL (accepts duplicates, do not remove), Intersect (Common)
+- Union and Union all merges tables. works only if both tables have same no. of columns and column names.
+- indexing
+- Inner Join:
+`SELECT Customers.CustomerName, Orders.OrderDate FROM Customers INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;`
+- Left Join:
+`SELECT Customers.CustomerName, Orders.OrderDate FROM Customers LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;`
+
+
+- #### Indexing:
+- Clustered(primary key) and Non-Clustered Index (non primary/secondary key), Column stored index (generally for big data: analytics on a column)
+- 
+
+has context menu
+
+-CTE (common table expression), temp table - provide data for stored rocedures
