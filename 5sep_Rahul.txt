@@ -1,0 +1,27 @@
+SAS token - shared access signature
+URL that grants restricted access rights to Azure Storage resources. URL that grants restricted access rights to Azure Storage resources.
+can share access for blob, file, table, queue.
+time bound - start and end time
+connection string
+sas token
+url generated
+access key - lifetime access
+not the best practice
+key vaults- create secret key (time bounded)
+access control (IAM)
+can assign upto 4000 roles
+adf - azure data factory
+pipeline
+data source, data destination
+IR - integration runtime - connection b/w the entities to communicate (high level access - upto server level).
+LS - linked service - server level access
+DS - dataset - table level
+creating IR for connection b/w private data center and cloud database storage(lakehouse gen2)
+LS for each service
+DS for each table
+creating pipeline-
+copy data
+timeout settings
+retry- no. of attempts + retry interval
+source dataset linking
+sink/destination dataset link

@@ -1,0 +1,26 @@
+azure data strorage
+standard/premium performance
+prem- low latency
+block,file, page blobs (binary large objects)
+backup- local,zone,geo,geo zone redundant storage
+local-physical datacentre-3copies 11 9s 99.99999999999% reliability in year
+zone- 3 copy in 03 different zones 12 9s
+geo-local in primary and secondary regions 16 9s
+geozone- 3 copy in 03 different zones in primary and 1 local copy(3) in 1 datacenter 16 9s
+RAGRS-read access geo redundant service - write in primary, read in secondary only
+Permitted scope for copy operations (preview) - 
+Restrict copy operations from source storage accounts that are within the same Azure AD tenant or that have a private link to the same virtual network as this storage account.
+General Availability (GA)/preview
+access tier-
+hot,cool(min 30days),cold(min 90d),archive(compressed)
+access cost,storage cost - LH,HL,HL,HL (high,low)
+adls -azure data lake storage gen2 (more organized)
+when creating storage account, select heirarcial namespace for gen2
+enable acl(authorization control)
+azure file sharing-
+create vm
+choose file share, connect to vm via rdp, upload files, access via network tab
+create snapshots
+creating tables
+ingress - pushing data into azure (~free)
+egress- downloading data from azure (costs more)
