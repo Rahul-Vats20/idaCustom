@@ -1,0 +1,43 @@
+adf pipeline activities-
+copy data
+data flow - transformation of data
+rest all activities come under control flow - control the flow of the data
+general activities
+append variable - var data types - int,string,boolean,array
+append supported only in arrays
+conditions - append on success,failure,skip,completion
+a pipeline can have max of 40 activities
+execute pipeline - to attach a child/chain pipeline to a parent/master pipeline, use execute pipeline activity to link.
+execture ssis package
+fail - when pipeline fails to execute
+get metadata  - data about data - gives info about file/folder in json
+lookup - search files,data from tables
+stored procedure
+script
+set variable - supports all data types
+web - get,put,post api requests
+webhook - group messages?
+wait - waiting time b/w activities
+
+hands on
+download csv files
+create ADLS gen2
+upload downloaded file into input container
+create ADF pipeline (PL_IDA_01)
+create copy data activity - copy file from input to output container
+add parameters - pipeline and dataset (input and output)
+instead of taking hardcoded values, parameters are passed on to used for i/p and o/p data
+
+triggers 
+used to schedule pipeline
+schedule based - scheduling intervals - minutes,hours,days,weeks,months or start date end date
+tumbling window - run pipeline for previous dates,
+storage event - any changes to storage - events such as file added, modified,deleted trigger runs pipeline
+
+conditional operators & loops
+if condition
+criteria
+true/false - cases
+disadvantage- only works for single file/input
+solution - for each operation
+iterates the loop conditions for each input.

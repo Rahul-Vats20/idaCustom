@@ -1,0 +1,26 @@
+data flow activities
+transformation of data
+creating data flow
+add source(s) - data sets
+perform transformation(joins,etc)
+add a sink/destination - output container
+enable debug
+add data flow activity in pipeline
+run
+hands on 
+source - order and orderDetails datasets
+sink - output dataset
+join - inner join
+
+derive column from the join
+then sort the joined tables
+e.g sort states in ascending order
+1 file for each distinct value
+choose single file output
+
+for each operation
+get metadata - non parametrized dataset - op filename and type
+pass op to for each - foreach ip - filename and type
+copy data - source - parametrized dataset - use item().name for filename
+op - filename.csv
+
