@@ -1,0 +1,6 @@
+Data types – Int, Float, String, Boolean ,List, Dictionary, Tuples
+Operators – Arithmetic, Comparison, Logical, Membership
+Zip() function – Map values of same index from different containers
+Enumerate function – Adds a counter as the key of enumerate object
+If else statements
+Creating User defined functions.
