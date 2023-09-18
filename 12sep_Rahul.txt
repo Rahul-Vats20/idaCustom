@@ -1,0 +1,34 @@
+synapse analytics
+can be a combination of adf,pyspark notebook,sql db
+sql pools - serverless (managed by azure) (view) (virtual functionality) (doesn't support tables) 
+		- dedicated (costly) (full functionality) (contains tables)
+		differences b/w both and scenarios where which one is needed.
+spark pools
+
+create sql db
+creating login 
+data exploration
+
+massive parallel processing
+control node-
+multiple compute nodes (60 by default)-
+data distribution
+replicated - small dimension table with less than 2gb data in star schema
+round robin - evenly distributed among nodes
+hash table - compares hash values and distributes same hash values to a single node
+
+data partition - faster retrieval, usually partitioned by date column
+indexing - cluster columnstore - updateable db, cluster index - index stored in same order alongside, heap - no natural order
+
+creating apache spark pool
+load dataframe
+view table
+explore pause pool settings
+
+creating dedicated sql pool
+bulk load
+upload file
+use sql query editor
+run
+
+synapse studio - create pipelines, dataflows

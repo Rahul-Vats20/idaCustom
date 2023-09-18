@@ -1,0 +1,21 @@
+using vm
+create sql db
+storage account
+adf
+
+hands on 
+perform lookup activity (not metadata) non-parametrized dataset
+pass lookup op to foreach ip - query - select * from information_schema
+copy data inside for each
+
+implementing cdc
+create dataflow
+check cdc settings
+
+automation account
+create runbook
+shell,py scripts or gui based powershell
+ex - output using constant value input
+
+azure monitor
+metrics - alerts - actions - action type - automation runbook, email,calls (mangager level, user level)

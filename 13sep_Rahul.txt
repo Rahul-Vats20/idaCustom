@@ -1,0 +1,4 @@
+PowerBI - desktop,mobile,services
+filters,slicers,query editor exploration - query language Mquery (mashup query)
+creating parameter
+calculated column - stores a column in the table vs measure - not storing data in the model, uses dax formula at runtime

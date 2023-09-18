@@ -1,0 +1,8 @@
+parameter
+power query editor
+dax - measure, calculated column
+filters
+slicer
+rls?
+beautification
+visuals - uni,bi,multivarient (number of variables)
